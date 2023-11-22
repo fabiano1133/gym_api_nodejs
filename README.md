@@ -33,7 +33,9 @@
 
 - npm i typescript @types/node tsx tsup -D (npx tsc --init -> gera o tsconfig.json)
 - npm i eslint @rocketseat/eslint-config -D
+- npm i prisma -D (npx prisma init [ after ] => npx prisma generate -> para tipar as tabelas)
 
 ## DEPENDENCIAS DE PRD DA APP
 
 - npm i fastify
+- npm i @prisma/client
