@@ -32,6 +32,7 @@
 ## DEPENDENCIAS DE DEV DA APP
 
 - npm i typescript @types/node tsx tsup -D (npx tsc --init -> gera o tsconfig.json)
+- npm i eslint @rocketseat/eslint-config -D
 
 ## DEPENDENCIAS DE PRD DA APP
 
