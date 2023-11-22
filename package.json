@@ -1,0 +1,26 @@
+{
+  "name": "gympass-api-nodejs",
+  "version": "1.0.0",
+  "description": "API do aplicativo Gympass Clone",
+  "main": "sever.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start:prod": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.4",
+    "tsup": "^8.0.1",
+    "tsx": "^4.2.0",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "fastify": "^4.24.3"
+  }
+}

@@ -28,3 +28,11 @@
 - [] Os Dados da aplicação precisa está persistido em um banco de dados (postgreSQL)
 - [] Todas as listas de dados precisam estar paginadas com 20 itens por pagina
 - [] O usuário deve ser identificado por um JWT (Json Web Token)
+
+## DEPENDENCIAS DE DEV DA APP
+
+- npm i typescript @types/node tsx tsup -D (npx tsc --init -> gera o tsconfig.json)
+
+## DEPENDENCIAS DE PRD DA APP
+
+- npm i fastify
