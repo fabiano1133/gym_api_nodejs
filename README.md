@@ -33,9 +33,13 @@
 
 - npm i typescript @types/node tsx tsup -D (npx tsc --init -> gera o tsconfig.json)
 - npm i eslint @rocketseat/eslint-config -D
-- npm i prisma -D (npx prisma init [ after ] => npx prisma generate -> para tipar as tabelas)
+- npm i prisma -D (npx prisma init [ after ] => npx prisma generate -> para tipar as tabelas [ after ] -> npx prisma migrate dev (cria as migrations no banco))
 
 ## DEPENDENCIAS DE PRD DA APP
 
 - npm i fastify
 - npm i @prisma/client
+
+## INICIALIZAR A IMG DO PG-BITNAMI NO DOCKER
+
+- docker run --name gympass-api-pg -e POSTGRESQL_USER=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=gympass-api-db -p 5432:5432 bitnami/postgresql
